@@ -1,6 +1,7 @@
 # pegasus
 
 > Taking flight
+> Learning to fly ✈🐎
 
 #### Build Setup
 
