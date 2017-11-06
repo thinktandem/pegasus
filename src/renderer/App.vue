@@ -11,5 +11,7 @@
 </script>
 
 <style>
-  /* CSS */
+  #app {
+    background-image: url("~@/assets/plocal-bkg.png");
+  }
 </style>

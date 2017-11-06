@@ -1,10 +1,9 @@
 <template>
   <div id="wrapper">
-    <img id="logo" src="~@/assets/lando.png" alt="electron-vue" width="122">
     <main>
       <div class="left-side">
         <span class="title">
-          Pegasus ✈🐎
+          Pegasus
         </span>
         <system-information></system-information>
       </div>
@@ -13,16 +12,12 @@
         <div class="doc">
           <div class="title">Getting Started</div>
           <p>
-            electron-vue comes packed with detailed documentation that covers everything from
-            internal configurations, using the project structure, building your application,
-            and so much more.
+            Pegasus is one of the best known creatures in Greek mythology. He is a winged divine stallion usually depicted as pure white in color.
           </p>
-          <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</button><br><br>
-        </div>
-        <div class="doc">
-          <div class="title alt">Other Documentation</div>
-          <button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</button>
-          <button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</button>
+          <p>
+            Pegasus allows the hero to ride him to defeat a monster, the Chimera, before realizing many other exploits.
+          </p>
+          <button @click="open('https://github.com/thinktandem/pegasus/')">Read the Docs</button><br><br>
         </div>
       </div>
     </main>
@@ -44,34 +39,22 @@
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
-  body { font-family: 'Source Sans Pro', sans-serif; }
+  body { font-family: 'Arial', sans-serif; }
 
   #wrapper {
-    background:
-      radial-gradient(
-        ellipse at top left,
-        rgba(255, 255, 255, 1) 40%,
-        rgba(229, 229, 229, .9) 100%
-      );
     height: 100vh;
-    padding: 60px 80px;
+    padding: 30px 80px;
     width: 100vw;
   }
 
-  #logo {
-    height: auto;
-    margin-bottom: 20px;
-  }
-
   main {
+    height: 286px;
     display: flex;
     justify-content: space-between;
   }
@@ -84,13 +67,13 @@
   }
 
   .welcome {
-    color: #555;
+    color: #000;
     font-size: 23px;
     margin-bottom: 10px;
   }
 
   .title {
-    color: #2c3e50;
+    color: #000;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 6px;
@@ -114,14 +97,10 @@
     border-radius: 2em;
     display: inline-block;
     color: #fff;
-    background-color: #4fc08d;
+    background-color: #000;
     transition: all 0.15s ease;
     box-sizing: border-box;
-    border: 1px solid #4fc08d;
+    border: 0px;
   }
 
-  .doc button.alt {
-    color: #42b983;
-    background-color: transparent;
-  }
 </style>

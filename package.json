@@ -1,6 +1,6 @@
 {
   "name": "pegasus",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Mike Pirog <mike@thinktandem.io>",
   "description": "Taking flight",
   "license": null,
@@ -23,7 +23,7 @@
   },
   "build": {
     "productName": "pegasus",
-    "appId": "org.simulatedgreg.electron-vue",
+    "appId": "io.pantheon.pegasus",
     "directories": {
       "output": "build"
     },
