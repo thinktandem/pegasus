@@ -25,6 +25,7 @@ install:
   # Sanity chceks
   - node --version
   - yarn --version
+  - yarn
 
 # Test and build
 build_script:

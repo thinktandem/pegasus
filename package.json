@@ -1,8 +1,12 @@
 {
   "name": "pegasus",
+  "description": "Taking flight",
   "version": "0.0.1",
   "author": "Mike Pirog <mike@thinktandem.io>",
-  "description": "Taking flight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinktandem/pegasus"
+  },
   "license": "GPL-3.0",
   "main": "./dist/electron/main.js",
   "scripts": {

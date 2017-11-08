@@ -14,9 +14,9 @@ dist: trusty
 # Cache
 cache:
   directories:
-  - node_modules
-  - "$HOME/.electron"
-  - "$HOME/.cache"
+    - node_modules
+    - "$HOME/.electron"
+    - "$HOME/.cache"
 
 # Add ons
 addons:
