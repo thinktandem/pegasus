@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Mike Pirog <mike@thinktandem.io>",
   "description": "Taking flight",
-  "license": null,
+  "license": "GPLv3",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
@@ -30,6 +30,10 @@
     "files": [
       "dist/electron/**/*"
     ],
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "icon": "build/icons/icon.icns"
+    },
     "dmg": {
       "contents": [
         {
@@ -44,9 +48,6 @@
           "type": "file"
         }
       ]
-    },
-    "mac": {
-      "icon": "build/icons/icon.icns"
     },
     "win": {
       "icon": "build/icons/icon.ico"
