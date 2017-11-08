@@ -1,9 +1,10 @@
-# pegasus
+Pegasus
+=======
 
-> Taking flight
-> Learning to fly ✈🐎
+> Things are happening!
 
-#### Build Setup
+Useful Commands
+---------------
 
 ``` bash
 # install dependencies
@@ -18,12 +19,15 @@ npm run build
 # run unit & end-to-end tests
 npm test
 
-
 # lint all JS/Vue component files in `src/`
 npm run lint
-
 ```
 
----
+Release Steps
+-------------
 
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[de85f81](https://github.com/SimulatedGREG/electron-vue/tree/de85f81890c01500113738bfe57bef136f9fbf52) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+1. Switch to the `master` branch
+2. Bump the version as needed in the `package.json`
+3. Create a **DRAFT** release on GitHub using `v` + version in 2. as the "Tag Version"
+4. `git add`, `git commit` and then `git push origin master`
+5. When satisfied with the result, publish the Release on GitHub

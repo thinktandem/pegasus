@@ -47,7 +47,7 @@
 
 <style scoped>
   .title {
-    color: #888;
+    color: #000;
     font-size: 18px;
     font-weight: initial;
     letter-spacing: .25px;
@@ -62,12 +62,12 @@
   }
 
   .item .name {
-    color: #6a6a6a;
+    color: #000;
     margin-right: 6px;
   }
 
   .item .value {
-    color: #35495e;
+    color: #000;
     font-weight: bold;
   }
 </style>
